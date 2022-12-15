@@ -11,7 +11,7 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
     <!--==================== SWIPER CSS ====================-->
-
+<link rel="stylesheet" href="assets/styles/swiper-bundle.min.css">
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./assets/styles/style.css" />
 
@@ -48,8 +48,8 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#projects" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Projects
+              <a href="#project" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Project
               </a>
             </li>
             <li class="nav__item">
@@ -309,7 +309,9 @@
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
-            <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education">
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Education
             </div>
@@ -321,7 +323,10 @@
           </div>
           <div class="qualification__sections">
             <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education">
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
@@ -420,9 +425,9 @@
                 <div></div>
 
                 <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                  </div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
 
                 <div>
                   <h3 class="qualification___title">Data Analyst</h3>
@@ -432,16 +437,12 @@
                     2018 - 2022
                   </div>
                 </div>
-
-               
               </div>
 
               <!--==================== QUALIFICATION 3 ====================-->
               <div class="qualification__data">
                 <!-- <div></div> -->
 
-                
-
                 <div>
                   <h3 class="qualification___title">Data Analyst</h3>
                   <span class="qualification__subtitle">DXC Technology</span>
@@ -452,9 +453,9 @@
                 </div>
 
                 <div>
-                    <span class="qualification__rounder"></span>
-                    <!-- <span class="qualification__line"></span> -->
-                  </div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
               </div>
             </div>
           </div>
@@ -464,8 +465,90 @@
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services"></section>
 
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <!--==================== PROJECT ====================-->
+      <section class="project section" id="project">
+        <h2 class="section__title">Project</h2>
+        <span class="section__subtitle">Most recent Projects</span>
+        <div class="project__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--==================== PROJECT 1 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/project-1.jpg" alt="" class="project__img" />
+              <div class="project__data">
+                <h3 class="project__title">Mahabis Clone</h3>
+                <p class="project__description">
+                  Mahabis are redesigning downtime by adding gorgeously simple
+                  and practical details to slippers.mahabis, an award-winning
+                  brand, has considered what it takes to create the most
+                  wearable slipper.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small project__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img
+                src="assets/img/project-2.jpg"
+                alt=""
+                class="project__img" />
+              <div class="project__data">
+                <h3 class="project__title">Udemy Clone</h3>
+                <p class="project__description">
+                  Udemy is an online learning and teaching marketplace with over
+                  213000 courses and 57 million students. Learn programming,
+                  marketing, data science and more.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small project__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 3 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img
+                src="assets/img/project-3.jpeg"
+                alt=""
+                class="project__img" />
+              <div class="project__data">
+                <h3 class="project__title">Amazon Prime Video Clone</h3>
+                <p class="project__description">
+                  Amazon Prime Video, also known simply as Prime Video, is an
+                  American subscription video on-demand over-the-top streaming
+                  and rental service of Amazon offered as a standalone service
+                  or as part of Amazon's Prime subscription.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small project__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Arrow Buttons for Slider -->
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-project-icon"></i>
+            
+            
+        </div>
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-project-icon"></i>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -483,7 +566,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/scripts/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="./assets/scripts/index.js"></script>
