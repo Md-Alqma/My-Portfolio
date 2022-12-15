@@ -388,7 +388,7 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 15rem;
   justify-self: center;
   align-self: center;
 }
@@ -420,6 +420,10 @@ img {
   text-align: center;
 }
 
+.about__img-container {
+  background-color: var(--first-color);
+  border-radius: 16rem 6rem 16rem 16rem;
+}
 .about__buttons {
   display: flex;
   justify-content: center;
