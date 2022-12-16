@@ -1,7 +1,7 @@
 
 /*==================== Heading Animation ====================*/
 
-let words = ['am Alqma.', 'like HTML.', 'also like css.',  ' am a Web Developer.', 'like web design.'],
+let words = ['am Alqma.', ' am a Web Developer.', 'like web design.'],
     part,
     i = 0,
     offset = 0,
