@@ -387,7 +387,7 @@ img {
 }
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 300px;
   border-radius: 15rem;
   justify-self: center;
   align-self: center;
@@ -868,6 +868,7 @@ img {
     width: 180px;
   }
 
+
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -878,6 +879,21 @@ img {
 
   .project__img {
     width: 200px;
+  }
+
+  .tech__stack {
+    width: 14px;
+  }
+
+  /* .portfolio__button {
+    width: 10px;
+  } */
+}
+
+
+@media screen and (min-width:351px) and (max-width:567px) {
+  .about__img-container {
+    margin: auto;
   }
 }
 /* For medium devices */
@@ -902,6 +918,7 @@ img {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  
 
   .skills__container {
     display: grid;
