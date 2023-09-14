@@ -1141,10 +1141,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .portfolio__img:hover {
+  /* .portfolio__img:hover {
     transform: scale(3.5, 2.5);
     transition: 0.8s;
-  }
+  } */
 }
 
 /* 
