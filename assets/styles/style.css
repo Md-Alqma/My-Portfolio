@@ -868,7 +868,6 @@ img {
     width: 180px;
   }
 
-
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -881,17 +880,17 @@ img {
     width: 200px;
   }
 
-  .tech__stack {
-    width: 14px;
-  }
+  /* .tech__stack {
+    width: 32px;
+    mix-blend-mode: multiply;
+  } */
 
   /* .portfolio__button {
     width: 10px;
   } */
 }
 
-
-@media screen and (min-width:351px) and (max-width:567px) {
+@media screen and (min-width: 351px) and (max-width: 567px) {
   .about__img-container {
     margin: auto;
   }
@@ -918,7 +917,6 @@ img {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  
 
   .skills__container {
     display: grid;
